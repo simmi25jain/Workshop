@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #020264;
+}
+.inner-div{
+    background-color: #a0fadc;
+    border-radius: 15px;
+    height: auto;
+    text-align: center;
+    margin: 0 405px;
+    padding: 0;
+    padding-top: 50px;
+}
+.inner-div img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  margin: 0;
+  padding: 14px;
+}
+.name{
+    font-size: 40px;
+}
+.title{
+    font-size: 25px;
+}
+.buttonsubmessage{
+    display: flex;
+    gap:25px
+  }
+.Message{
+    background-color: #0c310c;
+    border-radius: 55px;
+    color: white;
+    padding: 20px 35px;
+    
+}
+.Subscribe{
+    background-color:#0c310c;
+    border-radius: 55px;
+    color: white;
+    padding: 20px 35px;
+}
+.stats {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+    align-items: center; 
+    margin-top: 10px;
+    font-size: 18px; 
+}
+.stats div {
+    display: flex;
+    align-items: center; 
+    gap: 5px; 
+}

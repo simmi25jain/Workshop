@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff7f8;
+}
+.container{
+    display: flex;
+
+}
+.logodiv{
+    background-color: pink;
+    width: 80%;
+    padding: 28px;
+    
+}
+.logodiv h1{
+    margin-bottom: 20px;
+}
+.contentdiv{
+    padding: 20px;
+}
+nav{
+    background-color: pink;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    list-style: none;
+    width: 120%;
+}
+nav ul li{
+    margin-bottom: 4px;
+}
+nav ul a{
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    background-color: rgb(250, 229, 232);
+    color: black;
+}
